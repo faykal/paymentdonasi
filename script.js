@@ -7,6 +7,6 @@ playButton.addEventListener("click", () => {
         playButton.textContent = "❚❚"; // Ubah teks tombol menjadi Pause
     } else {
         audio.pause();
-        playButton.textContent = "▶"; // Ubah teks tombol menjadi Play
+        playButton.textContent = "▶️"; // Ubah teks tombol menjadi Play
     }
 });
